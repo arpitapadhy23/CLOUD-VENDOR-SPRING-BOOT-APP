@@ -15,4 +15,4 @@ Run the Application: Start the Spring Boot application using your preferred IDE 
 Explore the APIs: Access the provided RESTful APIs to perform CRUD operations on your data.
 
 
-# Thank you for choosing the CLOUD_VENDOR_SPRING_BOOT_APP repository. We look forward to your exploration and contributions, enabling you to build robust and scalable Java Spring Boot applications with ease.
+Thank you for choosing the CLOUD_VENDOR_SPRING_BOOT_APP repository. We look forward to your exploration and contributions, enabling you to build robust and scalable Java Spring Boot applications with ease.
