@@ -1,5 +1,6 @@
 package com.springbootproject.restapi.service.impl;
 
+import com.springbootproject.restapi.exception.CloudVendorNotFoundException;
 import com.springbootproject.restapi.model.CloudVendor;
 import com.springbootproject.restapi.repository.CloudVendorRepository;
 import com.springbootproject.restapi.service.CloudVendorService;
@@ -39,6 +40,10 @@ public class CloudVendorServiceImpl implements CloudVendorService {
 
     @Override
     public CloudVendor getCloudVendor(String cloudVendorId) {
+
+        if(cloudVendorRepository.findById(cloudVendorId).isEmpty()){
+            throw new CloudVendorNotFoundException("Requested Cloud Vendor does not exsist");
+        }
         return cloudVendorRepository.findById(cloudVendorId).get();
     }
 
