@@ -7,6 +7,7 @@ Spring Boot: We utilize the Spring Boot framework for rapid application developm
 REST APIs: The project showcases the design and implementation of RESTful APIs, providing endpoints for Create, Read, Update, and Delete operations.
 Maven: We manage project dependencies and build processes using Maven, ensuring project scalability and maintainability.
 MySQL Database: Securely store and manage your data in a MySQL database, a popular and robust choice for relational data.
+Exception Handling: Graceful handling of any unexpected exception during the flow of execution is done.
 # To explore the capabilities of the CLOUD_VENDOR_SPRING_BOOT_APP, follow these steps:
 Clone the Repository: git clone https://github.com/your-username/CLOUD_VENDOR_SPRING_BOOT_APP.git
 Build the Project: Navigate to the project directory and build it using Maven: mvn clean install
